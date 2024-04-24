@@ -173,7 +173,7 @@ if (cart.length === 0) return;
         }).join("");
 
         const message = encodeURIComponent(cartIem)
-        const phone = "85989321850"
+        const phone = "+5585989321850"
 
         window.open(`http://wa.me/${phone}?text=${message} Endereço: ${address.value}`, "_blank")
 
